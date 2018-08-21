@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="39120" started-at="2018-08-21T20:58:03Z" finished-at="2018-08-21T20:58:42Z">
+    <groups>
+      <group name="logintest">
+        <method signature="LoginTests.invalidLogin()[pri:0, instance:tests.LoginTests@5f2050f6]" name="invalidLogin" class="tests.LoginTests"/>
+        <method signature="LoginTests.invalidRegisterUser()[pri:0, instance:tests.LoginTests@5f2050f6]" name="invalidRegisterUser" class="tests.LoginTests"/>
+        <method signature="LoginTests.validLogin()[pri:0, instance:tests.LoginTests@5f2050f6]" name="validLogin" class="tests.LoginTests"/>
+      </group> <!-- logintest -->
+    </groups>
+    <test name="Test" duration-ms="39120" started-at="2018-08-21T20:58:03Z" finished-at="2018-08-21T20:58:42Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@5f2050f6]" name="setup" is-config="true" duration-ms="11883" started-at="2018-08-21T22:58:03Z" finished-at="2018-08-21T22:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:tests.LoginTests@5f2050f6]" name="invalidLogin" duration-ms="1711" started-at="2018-08-21T22:58:15Z" finished-at="2018-08-21T22:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@5f2050f6]" name="teardown" is-config="true" duration-ms="3181" started-at="2018-08-21T22:58:17Z" finished-at="2018-08-21T22:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@5f2050f6]" name="setup" is-config="true" duration-ms="7325" started-at="2018-08-21T22:58:20Z" finished-at="2018-08-21T22:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidRegisterUser()[pri:0, instance:tests.LoginTests@5f2050f6]" name="invalidRegisterUser" duration-ms="3444" started-at="2018-08-21T22:58:27Z" finished-at="2018-08-21T22:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegisterUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@5f2050f6]" name="teardown" is-config="true" duration-ms="1487" started-at="2018-08-21T22:58:31Z" finished-at="2018-08-21T22:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@5f2050f6]" name="setup" is-config="true" duration-ms="6801" started-at="2018-08-21T22:58:32Z" finished-at="2018-08-21T22:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTests@5f2050f6]" name="validLogin" duration-ms="1742" started-at="2018-08-21T22:58:39Z" finished-at="2018-08-21T22:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@5f2050f6]" name="teardown" is-config="true" duration-ms="1512" started-at="2018-08-21T22:58:41Z" finished-at="2018-08-21T22:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
