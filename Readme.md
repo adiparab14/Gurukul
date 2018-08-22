@@ -34,8 +34,11 @@ All the required dependencies are mentioned in the POM. Maven compiler is used f
 
 __Step 1: Install Maven 3.0.3+__
 [Download from here](http://maven.apache.org/download.html)
+
 __Step 2: Ensure maven binaries are on your PATH (ie. you can run `mvn` from anywhere)__
+
 Follow the installation instructions from [here](http://maven.apache.org/download.html#Installation).
+
 __Step 3: Running Tests__
 Run the following command in the root folder of the project
 ```
