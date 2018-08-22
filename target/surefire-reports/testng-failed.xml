@@ -4,17 +4,16 @@
   <test name="Test(failed)">
     <groups>
       <run>
-        <include name="logintest"/>
+        <include name="accountstest"/>
       </run>
     </groups>
     <classes>
-      <class name="tests.LoginTests">
+      <class name="tests.AccountTests">
         <methods>
+          <include name="invalidSettingsSave"/>
           <include name="setup"/>
-          <include name="invalidRegisterUser"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- tests.LoginTests -->
+      </class> <!-- tests.AccountTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

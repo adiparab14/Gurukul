@@ -13,6 +13,11 @@ public class MainPage {
 	By entities = By.xpath("//a[@class='dropdown-toggle']//span[text()=\"Entities\"]");
 	By branch = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[2]/ul/li[1]/a");
 	By staff = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[2]/ul/li[2]/a");
+	By account = By.xpath("//a[@class='dropdown-toggle']//span[text()=\"Account\"]");
+	By settings = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[3]/ul/li[1]/a");
+	By password = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[3]/ul/li[2]/a");
+	By sessions = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[3]/ul/li[3]/a");
+	By logout = By.xpath("/html/body/div[2]/nav/div/div[2]/ul/li[3]/ul/li[4]/a");
 
 	public MainPage(WebDriver driver) {
 		this.driver = driver;
@@ -31,7 +36,18 @@ public class MainPage {
 	}
 
 	public void clickStaff() {
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(entities));
 		driver.findElement(entities).click();
+		wait.until(ExpectedConditions.elementToBeClickable(staff));
 		driver.findElement(staff).click();
+	}
+	
+	public void clickSettings(){
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(account));
+		driver.findElement(account).click();
+		wait.until(ExpectedConditions.elementToBeClickable(settings));
+		driver.findElement(settings).click();
 	}
 }

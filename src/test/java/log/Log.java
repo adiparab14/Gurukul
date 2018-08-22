@@ -8,11 +8,11 @@ public class Log {
 	public static Logger Log = Logger.getLogger(Log.class);
 
 	public static void startTestCase(String sTestCaseName) {
-		Log.info("$$$$$$$$$$$$$$$$$$$$$                 Start " + sTestCaseName + "       $$$$$$$$$$$$$$$$$$$$$$$$$");
+		Log.info("$$$$$$$$$$$$$$$$$$$$$                 Start Testcase " + sTestCaseName + "       $$$$$$$$$$$$$$$$$$$$$$$$$");
 	}
 
 	public static void endTestCase(String sTestCaseName) {
-		Log.info("XXXXXXXXXXXXXXXXXXXXXXX             " + "-E---N---D-" + "             XXXXXXXXXXXXXXXXXXXXXX");
+		Log.info("XXXXXXXXXXXXXXXXXXXXXXX             " + "-E---N---D- " + sTestCaseName + "             XXXXXXXXXXXXXXXXXXXXXX");
 		Log.info("X");
 		Log.info("X");
 	}

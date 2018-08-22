@@ -2,12 +2,11 @@ package tests;
 
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.sun.media.jfxmedia.logging.Logger;
 
 import log.Log;
 import pageobjects.HomePage;
@@ -50,7 +49,7 @@ public class LoginTests {
 	
 	
 	@Test(groups = {"logintest"})
-	public void invalidLogin() throws ElementNotVisibleException {
+	public void invalidLogin() throws WebDriverException {
 		Log.startTestCase("Invalid Login");
 		try {
 			LoginPage login = new LoginPage(driver);
@@ -67,7 +66,7 @@ public class LoginTests {
 	}
 	
 	@Test(groups = {"logintest"})
-	public void invalidRegisterUser() throws ElementNotVisibleException {
+	public void invalidRegisterUser() throws WebDriverException{
 		Log.startTestCase("Invalid Registration");
 		try {
 			HomePage home = new HomePage(driver);

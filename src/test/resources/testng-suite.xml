@@ -5,11 +5,12 @@
 		parallel="false">
 		<groups>
 			<run>
-				<include name="logintest" />
+				<include name="accountstest" />
 			</run>
 		</groups>
 		<classes>
 			<class name="tests.LoginTests" />
+			<class name="tests.AccountTests" />
 			<class name="tests.BranchTests" />
 		</classes>
 	</test>
