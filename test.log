@@ -1,58 +1,58 @@
-2018-08-22 19:41:37 INFO  Log:21 - Browser initaited.
-2018-08-22 19:41:37 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:41:39 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Login             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:41:39 INFO  Log:16 - X
-2018-08-22 19:41:39 INFO  Log:17 - X
-2018-08-22 19:41:51 INFO  Log:21 - Browser initaited.
-2018-08-22 19:41:51 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Registration       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:41:55 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Registration             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:41:55 INFO  Log:16 - X
-2018-08-22 19:41:55 INFO  Log:17 - X
-2018-08-22 19:42:04 INFO  Log:21 - Browser initaited.
-2018-08-22 19:42:04 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Valid Login       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:05 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Valid Login             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:05 INFO  Log:16 - X
-2018-08-22 19:42:05 INFO  Log:17 - X
-2018-08-22 19:42:14 INFO  Log:21 - Browser initaited.
-2018-08-22 19:42:15 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Valid Settings Save       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:18 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Valid Settings Save             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:18 INFO  Log:16 - X
-2018-08-22 19:42:18 INFO  Log:17 - X
-2018-08-22 19:42:18 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Valid Settings Save       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:19 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Valid Settings Save             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:19 INFO  Log:16 - X
-2018-08-22 19:42:19 INFO  Log:17 - X
-2018-08-22 19:42:19 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Password reset       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:20 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Password reset             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:20 INFO  Log:16 - X
-2018-08-22 19:42:20 INFO  Log:17 - X
-2018-08-22 19:42:20 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalidate Session       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:21 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalidate Session             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:21 INFO  Log:16 - X
-2018-08-22 19:42:21 INFO  Log:17 - X
-2018-08-22 19:42:33 INFO  Log:21 - Browser initaited.
-2018-08-22 19:42:35 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Create Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:38 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Create Branch             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:38 INFO  Log:16 - X
-2018-08-22 19:42:38 INFO  Log:17 - X
-2018-08-22 19:42:38 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Edit Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:40 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Edit Branch             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:40 INFO  Log:16 - X
-2018-08-22 19:42:40 INFO  Log:17 - X
-2018-08-22 19:42:40 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Delete Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:42:41 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Delete Branch             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:42:41 INFO  Log:16 - X
-2018-08-22 19:42:41 INFO  Log:17 - X
-2018-08-22 19:42:55 INFO  Log:21 - Browser initaited.
-2018-08-22 19:43:00 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Create Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:43:02 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Create Staff             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:43:02 INFO  Log:16 - X
-2018-08-22 19:43:02 INFO  Log:17 - X
-2018-08-22 19:43:02 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Edit Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:43:05 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Edit Staff             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:43:05 INFO  Log:16 - X
-2018-08-22 19:43:05 INFO  Log:17 - X
-2018-08-22 19:43:05 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Delete Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
-2018-08-22 19:43:07 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Delete Staff             XXXXXXXXXXXXXXXXXXXXXX
-2018-08-22 19:43:07 INFO  Log:16 - X
-2018-08-22 19:43:07 INFO  Log:17 - X
+2018-08-22 20:25:12 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:25:12 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:16 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Login             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:16 INFO  Log:16 - X
+2018-08-22 20:25:16 INFO  Log:17 - X
+2018-08-22 20:25:25 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:25:25 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Registration       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:28 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Registration             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:28 INFO  Log:16 - X
+2018-08-22 20:25:28 INFO  Log:17 - X
+2018-08-22 20:25:36 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:25:36 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Valid Login       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:38 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Valid Login             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:38 INFO  Log:16 - X
+2018-08-22 20:25:38 INFO  Log:17 - X
+2018-08-22 20:25:46 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:25:48 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Valid Settings Save       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:50 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Valid Settings Save             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:50 INFO  Log:16 - X
+2018-08-22 20:25:50 INFO  Log:17 - X
+2018-08-22 20:25:50 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Settings Save       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:51 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Settings Save             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:51 INFO  Log:16 - X
+2018-08-22 20:25:51 INFO  Log:17 - X
+2018-08-22 20:25:51 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalid Password Reset       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:52 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalid Password Reset             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:52 INFO  Log:16 - X
+2018-08-22 20:25:52 INFO  Log:17 - X
+2018-08-22 20:25:52 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Invalidate Session       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:25:53 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Invalidate Session             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:25:53 INFO  Log:16 - X
+2018-08-22 20:25:53 INFO  Log:17 - X
+2018-08-22 20:26:02 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:26:03 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Create Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:06 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Create Branch             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:06 INFO  Log:16 - X
+2018-08-22 20:26:06 INFO  Log:17 - X
+2018-08-22 20:26:06 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Edit Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:08 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Edit Branch             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:08 INFO  Log:16 - X
+2018-08-22 20:26:08 INFO  Log:17 - X
+2018-08-22 20:26:08 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Delete Branch       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:10 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Delete Branch             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:10 INFO  Log:16 - X
+2018-08-22 20:26:10 INFO  Log:17 - X
+2018-08-22 20:26:19 INFO  Log:21 - Browser Initiated.
+2018-08-22 20:26:23 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Create Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:25 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Create Staff             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:25 INFO  Log:16 - X
+2018-08-22 20:26:25 INFO  Log:17 - X
+2018-08-22 20:26:25 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Edit Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:27 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Edit Staff             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:27 INFO  Log:16 - X
+2018-08-22 20:26:27 INFO  Log:17 - X
+2018-08-22 20:26:27 INFO  Log:11 - $$$$$$$$$$$$$$$$$$$$$                 Start Testcase Delete Staff       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-08-22 20:26:29 INFO  Log:15 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D- Delete Staff             XXXXXXXXXXXXXXXXXXXXXX
+2018-08-22 20:26:29 INFO  Log:16 - X
+2018-08-22 20:26:29 INFO  Log:17 - X

@@ -11,10 +11,21 @@
       </run>
     </groups>
     <classes>
+      <class name="tests.BranchTests">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="deleteBranch"/>
+          <include name="editBranch"/>
+        </methods>
+      </class> <!-- tests.BranchTests -->
       <class name="tests.StaffTests">
         <methods>
+          <include name="createValidStaff"/>
           <include name="deleteValidStaff"/>
           <include name="setup"/>
+          <include name="editValidStaff"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- tests.StaffTests -->
     </classes>

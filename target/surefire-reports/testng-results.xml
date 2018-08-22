@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="101567" started-at="2018-08-22T17:41:25Z" finished-at="2018-08-22T17:43:07Z">
+  <suite name="TestSuite" duration-ms="90771" started-at="2018-08-22T18:25:00Z" finished-at="2018-08-22T18:26:31Z">
     <groups>
       <group name="branchtest">
         <method signature="BranchTests.createValidBranch()[pri:4, instance:tests.BranchTests@735f7ae5]" name="createValidBranch" class="tests.BranchTests"/>
@@ -26,107 +26,111 @@
         <method signature="LoginTests.validLogin()[pri:0, instance:tests.LoginTests@783e6358]" name="validLogin" class="tests.LoginTests"/>
       </group> <!-- logintest -->
     </groups>
-    <test name="Test" duration-ms="101567" started-at="2018-08-22T17:41:25Z" finished-at="2018-08-22T17:43:07Z">
+    <test name="Test" duration-ms="90771" started-at="2018-08-22T18:25:00Z" finished-at="2018-08-22T18:26:31Z">
       <class name="tests.LoginTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="11522" started-at="2018-08-22T19:41:25Z" finished-at="2018-08-22T19:41:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="11871" started-at="2018-08-22T20:25:00Z" finished-at="2018-08-22T20:25:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:tests.LoginTests@783e6358]" name="invalidLogin" duration-ms="1902" started-at="2018-08-22T19:41:37Z" finished-at="2018-08-22T19:41:39Z">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:tests.LoginTests@783e6358]" name="invalidLogin" duration-ms="3606" started-at="2018-08-22T20:25:12Z" finished-at="2018-08-22T20:25:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="3901" started-at="2018-08-22T19:41:39Z" finished-at="2018-08-22T19:41:43Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="1407" started-at="2018-08-22T20:25:16Z" finished-at="2018-08-22T20:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="8308" started-at="2018-08-22T19:41:43Z" finished-at="2018-08-22T19:41:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="8131" started-at="2018-08-22T20:25:17Z" finished-at="2018-08-22T20:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidRegisterUser()[pri:0, instance:tests.LoginTests@783e6358]" name="invalidRegisterUser" duration-ms="3880" started-at="2018-08-22T19:41:51Z" finished-at="2018-08-22T19:41:55Z">
+        <test-method status="PASS" signature="invalidRegisterUser()[pri:0, instance:tests.LoginTests@783e6358]" name="invalidRegisterUser" duration-ms="2588" started-at="2018-08-22T20:25:25Z" finished-at="2018-08-22T20:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegisterUser -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="1587" started-at="2018-08-22T19:41:55Z" finished-at="2018-08-22T19:41:56Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="1264" started-at="2018-08-22T20:25:28Z" finished-at="2018-08-22T20:25:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="7204" started-at="2018-08-22T19:41:56Z" finished-at="2018-08-22T19:42:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@783e6358]" name="setup" is-config="true" duration-ms="6935" started-at="2018-08-22T20:25:29Z" finished-at="2018-08-22T20:25:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTests@783e6358]" name="validLogin" duration-ms="1716" started-at="2018-08-22T19:42:04Z" finished-at="2018-08-22T19:42:05Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTests@783e6358]" name="validLogin" duration-ms="1580" started-at="2018-08-22T20:25:36Z" finished-at="2018-08-22T20:25:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="1338" started-at="2018-08-22T19:42:05Z" finished-at="2018-08-22T19:42:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@783e6358]" name="teardown" is-config="true" duration-ms="1631" started-at="2018-08-22T20:25:38Z" finished-at="2018-08-22T20:25:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.LoginTests -->
       <class name="tests.StaffTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.StaffTests@180bc464]" name="setup" is-config="true" duration-ms="15902" started-at="2018-08-22T19:42:44Z" finished-at="2018-08-22T19:43:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.StaffTests@180bc464]" name="setup" is-config="true" duration-ms="10868" started-at="2018-08-22T20:26:12Z" finished-at="2018-08-22T20:26:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createValidStaff()[pri:7, instance:tests.StaffTests@180bc464]" name="createValidStaff" duration-ms="2480" started-at="2018-08-22T19:43:00Z" finished-at="2018-08-22T19:43:02Z">
+        <test-method status="PASS" signature="createValidStaff()[pri:7, instance:tests.StaffTests@180bc464]" name="createValidStaff" duration-ms="2081" started-at="2018-08-22T20:26:23Z" finished-at="2018-08-22T20:26:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createValidStaff -->
-        <test-method status="PASS" signature="editValidStaff()[pri:8, instance:tests.StaffTests@180bc464]" name="editValidStaff" duration-ms="2920" started-at="2018-08-22T19:43:02Z" finished-at="2018-08-22T19:43:05Z">
+        <test-method status="PASS" signature="editValidStaff()[pri:8, instance:tests.StaffTests@180bc464]" name="editValidStaff" duration-ms="2603" started-at="2018-08-22T20:26:25Z" finished-at="2018-08-22T20:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editValidStaff -->
-        <test-method status="PASS" signature="deleteValidStaff()[pri:9, instance:tests.StaffTests@180bc464]" name="deleteValidStaff" duration-ms="1564" started-at="2018-08-22T19:43:05Z" finished-at="2018-08-22T19:43:07Z">
+        <test-method status="PASS" signature="deleteValidStaff()[pri:9, instance:tests.StaffTests@180bc464]" name="deleteValidStaff" duration-ms="1718" started-at="2018-08-22T20:26:27Z" finished-at="2018-08-22T20:26:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteValidStaff -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.StaffTests@180bc464]" name="teardown" is-config="true" duration-ms="1971" started-at="2018-08-22T20:26:29Z" finished-at="2018-08-22T20:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- tests.StaffTests -->
       <class name="tests.BranchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BranchTests@735f7ae5]" name="setup" is-config="true" duration-ms="11625" started-at="2018-08-22T19:42:23Z" finished-at="2018-08-22T19:42:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BranchTests@735f7ae5]" name="setup" is-config="true" duration-ms="8145" started-at="2018-08-22T20:25:55Z" finished-at="2018-08-22T20:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createValidBranch()[pri:4, instance:tests.BranchTests@735f7ae5]" name="createValidBranch" duration-ms="2942" started-at="2018-08-22T19:42:35Z" finished-at="2018-08-22T19:42:38Z">
+        <test-method status="PASS" signature="createValidBranch()[pri:4, instance:tests.BranchTests@735f7ae5]" name="createValidBranch" duration-ms="2424" started-at="2018-08-22T20:26:03Z" finished-at="2018-08-22T20:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createValidBranch -->
-        <test-method status="PASS" signature="editBranch()[pri:5, instance:tests.BranchTests@735f7ae5]" name="editBranch" duration-ms="2197" started-at="2018-08-22T19:42:38Z" finished-at="2018-08-22T19:42:40Z">
+        <test-method status="PASS" signature="editBranch()[pri:5, instance:tests.BranchTests@735f7ae5]" name="editBranch" duration-ms="2249" started-at="2018-08-22T20:26:06Z" finished-at="2018-08-22T20:26:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editBranch -->
-        <test-method status="PASS" signature="deleteBranch()[pri:6, instance:tests.BranchTests@735f7ae5]" name="deleteBranch" duration-ms="1528" started-at="2018-08-22T19:42:40Z" finished-at="2018-08-22T19:42:41Z">
+        <test-method status="PASS" signature="deleteBranch()[pri:6, instance:tests.BranchTests@735f7ae5]" name="deleteBranch" duration-ms="1687" started-at="2018-08-22T20:26:08Z" finished-at="2018-08-22T20:26:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBranch -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.BranchTests@735f7ae5]" name="teardown" is-config="true" duration-ms="2746" started-at="2018-08-22T19:42:41Z" finished-at="2018-08-22T19:42:44Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.BranchTests@735f7ae5]" name="teardown" is-config="true" duration-ms="2101" started-at="2018-08-22T20:26:10Z" finished-at="2018-08-22T20:26:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.BranchTests -->
       <class name="tests.AccountTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountTests@17550481]" name="setup" is-config="true" duration-ms="8398" started-at="2018-08-22T19:42:07Z" finished-at="2018-08-22T19:42:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountTests@17550481]" name="setup" is-config="true" duration-ms="8580" started-at="2018-08-22T20:25:39Z" finished-at="2018-08-22T20:25:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validSettingsSave()[pri:0, instance:tests.AccountTests@17550481]" name="validSettingsSave" duration-ms="2589" started-at="2018-08-22T19:42:15Z" finished-at="2018-08-22T19:42:18Z">
+        <test-method status="PASS" signature="validSettingsSave()[pri:0, instance:tests.AccountTests@17550481]" name="validSettingsSave" duration-ms="1853" started-at="2018-08-22T20:25:48Z" finished-at="2018-08-22T20:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validSettingsSave -->
-        <test-method status="PASS" signature="invalidSettingsSave()[pri:1, instance:tests.AccountTests@17550481]" name="invalidSettingsSave" duration-ms="1007" started-at="2018-08-22T19:42:18Z" finished-at="2018-08-22T19:42:19Z">
+        <test-method status="PASS" signature="invalidSettingsSave()[pri:1, instance:tests.AccountTests@17550481]" name="invalidSettingsSave" duration-ms="985" started-at="2018-08-22T20:25:50Z" finished-at="2018-08-22T20:25:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSettingsSave -->
-        <test-method status="PASS" signature="invalidPasswordReset()[pri:2, instance:tests.AccountTests@17550481]" name="invalidPasswordReset" duration-ms="1387" started-at="2018-08-22T19:42:19Z" finished-at="2018-08-22T19:42:20Z">
+        <test-method status="PASS" signature="invalidPasswordReset()[pri:2, instance:tests.AccountTests@17550481]" name="invalidPasswordReset" duration-ms="1427" started-at="2018-08-22T20:25:51Z" finished-at="2018-08-22T20:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPasswordReset -->
-        <test-method status="PASS" signature="invalidateSession()[pri:3, instance:tests.AccountTests@17550481]" name="invalidateSession" duration-ms="963" started-at="2018-08-22T19:42:20Z" finished-at="2018-08-22T19:42:21Z">
+        <test-method status="PASS" signature="invalidateSession()[pri:3, instance:tests.AccountTests@17550481]" name="invalidateSession" duration-ms="1168" started-at="2018-08-22T20:25:52Z" finished-at="2018-08-22T20:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidateSession -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AccountTests@17550481]" name="teardown" is-config="true" duration-ms="1898" started-at="2018-08-22T19:42:21Z" finished-at="2018-08-22T19:42:23Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AccountTests@17550481]" name="teardown" is-config="true" duration-ms="1846" started-at="2018-08-22T20:25:53Z" finished-at="2018-08-22T20:25:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
