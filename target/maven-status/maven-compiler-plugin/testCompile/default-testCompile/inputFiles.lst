@@ -5,8 +5,12 @@ C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\RegisterPage.java
 C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\SettingsPage.java
 C:\Users\Priti\workspace\selenium\src\test\java\log\Log.java
 C:\Users\Priti\workspace\selenium\src\test\java\utils\Utils.java
-C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\BranchesPage.java
-C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\MainPage.java
+C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\ResetpasswordPage.java
 C:\Users\Priti\workspace\selenium\src\test\java\tests\LoginTests.java
+C:\Users\Priti\workspace\selenium\src\test\java\tests\StaffTests.java
+C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\StaffPage.java
 C:\Users\Priti\workspace\selenium\src\test\java\tests\AccountTests.java
 C:\Users\Priti\workspace\selenium\src\test\java\tests\BranchTests.java
+C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\BranchesPage.java
+C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\MainPage.java
+C:\Users\Priti\workspace\selenium\src\test\java\pageobjects\SessionsPage.java

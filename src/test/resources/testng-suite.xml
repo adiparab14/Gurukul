@@ -5,13 +5,17 @@
 		parallel="false">
 		<groups>
 			<run>
+				<include name="logintest" />
 				<include name="accountstest" />
+				<include name="branchtest" />
+				<include name="stafftest" />
 			</run>
 		</groups>
 		<classes>
 			<class name="tests.LoginTests" />
 			<class name="tests.AccountTests" />
 			<class name="tests.BranchTests" />
+			<class name="tests.StaffTests" />
 		</classes>
 	</test>
 </suite>

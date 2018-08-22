@@ -39,11 +39,8 @@ public class LoginTests {
 	      Assert.assertEquals(main.checkLoginMessage(), "You are logged in as user \"admin\".");
 	      Log.endTestCase("Valid Login");
 	    } catch (Exception e) {
-
-	      Log.error("Error occured during Login.");
-
+	      Log.error("Error occured during test.");
 	      throw (e);
-
 	    }
 	  }
 	
@@ -57,11 +54,8 @@ public class LoginTests {
 			Assert.assertEquals(login.checkLoginMessage(), "Authentication failed! Please check your credentials and try again.");
 			Log.endTestCase("Invalid Login");
 		} catch (Exception e) {
-
-			Log.error("Error occured during Login.");
-
+			Log.error("Error occured during test.");
 			throw (e);
-
 		}
 	}
 	
@@ -76,11 +70,8 @@ public class LoginTests {
 			Assert.assertEquals(register.checkInvalidRegisterMessage(), "Registration failed! Please try again later.");
 			Log.endTestCase("Invalid Registration");
 		} catch (Exception e) {
-
-			Log.error("Error occured during Registration.");
-
+			Log.error("Error occured during test.");
 			throw (e);
-
 		}
 	}
 

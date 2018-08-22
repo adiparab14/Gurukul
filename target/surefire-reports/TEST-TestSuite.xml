@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.21" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="102.769" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Priti\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf130895516597131223.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Priti\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8230440666445415048.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Python27\;C:\Python27\Lib\site-packages\selenium;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_101\bin\;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Priti\Downloads\apache-maven-3.5.0\bin;%JAVA_HOME%\bin;C:\Users\Priti\Documents\gradle-4.2.1\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Ruby24-x64\bin;C:\Users\Priti\AppData\Local\Microsoft\WindowsApps;C:\Users\Priti\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,10 +60,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="validSettingsSave" classname="tests.AccountTests" time="1.848"/>
-  <testcase name="invalidSettingsSave" classname="tests.AccountTests" time="0.914">
-    <failure message="expected [An error has occurred! Settings could not be saved.] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [An error has occurred! Settings could not be saved.] but found []
-	at tests.AccountTests.invalidSettingsSave(AccountTests.java:38)
-</failure>
-  </testcase>
+  <testcase name="invalidLogin" classname="tests.LoginTests" time="1.902"/>
+  <testcase name="invalidRegisterUser" classname="tests.LoginTests" time="3.874"/>
+  <testcase name="validLogin" classname="tests.LoginTests" time="1.712"/>
+  <testcase name="validSettingsSave" classname="tests.AccountTests" time="2.589"/>
+  <testcase name="invalidSettingsSave" classname="tests.AccountTests" time="1.007"/>
+  <testcase name="invalidPasswordReset" classname="tests.AccountTests" time="1.388"/>
+  <testcase name="invalidateSession" classname="tests.AccountTests" time="0.962"/>
+  <testcase name="createValidBranch" classname="tests.BranchTests" time="2.941"/>
+  <testcase name="editBranch" classname="tests.BranchTests" time="2.194"/>
+  <testcase name="deleteBranch" classname="tests.BranchTests" time="1.528"/>
+  <testcase name="createValidStaff" classname="tests.StaffTests" time="2.48"/>
+  <testcase name="editValidStaff" classname="tests.StaffTests" time="2.92"/>
+  <testcase name="deleteValidStaff" classname="tests.StaffTests" time="1.563"/>
 </testsuite>

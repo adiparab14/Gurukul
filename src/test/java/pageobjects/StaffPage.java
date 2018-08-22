@@ -6,9 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BranchesPage {
+public class StaffPage {
 
   WebDriver driver;
 
@@ -16,7 +17,7 @@ public class BranchesPage {
   By search = By.xpath("/html/body/div[3]/div[1]/div/div[1]/div/div[2]/form/button");
   By searchQuery = By.xpath(".//div[@class='form-group']//input[@id='searchQuery']");
   By name = By.xpath("/html/body/div[3]/div[1]/div/div[2]/div/div/form/div[2]/div[2]/input");
-  By code = By.xpath("/html/body/div[3]/div[1]/div/div[2]/div/div/form/div[2]/div[3]/input");
+  By branch = By.xpath("/html/body/div[3]/div[1]/div/div[2]/div/div/form/div[2]/div[3]/select");
   By cancel = By.xpath("/html/body/div[3]/div[1]/div/div[2]/div/div/form/div[3]/button[1]");
   By save = By.xpath("/html/body/div[3]/div[1]/div/div[2]/div/div/form/div[3]/button[2]");
   By branchname;
@@ -26,26 +27,12 @@ public class BranchesPage {
   By confirmDelete = By.xpath("/html/body/div[3]/div[1]/div/div[3]/div/div/form/div[3]/button[2]");
   By tableXpath = By.xpath("/html/body/div[3]/div[1]/div/div[4]/table");
 
-  public BranchesPage(WebDriver driver) {
+  public StaffPage(WebDriver driver) {
     this.driver = driver;
   }
 
-  public void setName(String strName) {
-    driver.findElement(name).clear();
-    driver.findElement(name).sendKeys(strName);
-  }
-
-  public void setCode(String strCode) {
-    driver.findElement(code).clear();
-    driver.findElement(code).sendKeys(strCode);
-  }
-
-  public void clickCreateBranch() {
+  public void clickCreateStaff() {
     driver.findElement(createNew).click();
-  }
-
-  public void clickSave() {
-    driver.findElement(save).click();
   }
 
   public void clickDelete() {
@@ -56,8 +43,8 @@ public class BranchesPage {
     driver.findElement(confirmDelete).click();
   }
 
-  public void clickView() {
-    driver.findElement(view).click();
+  public void clickSave() {
+    driver.findElement(save).click();
   }
 
   public void clickSearch() {
@@ -66,13 +53,14 @@ public class BranchesPage {
     driver.findElement(search).click();
   }
 
-  public void createBranch(String strName, String strCode) {
-    this.clickCreateBranch();
-    this.setName(strName);
-    this.setCode(strCode);
-    this.clickSave();
-    WebDriverWait wait = new WebDriverWait(driver, 20);
-    wait.until(ExpectedConditions.invisibilityOfElementLocated(cancel));
+  public void setName(String strName) {
+    driver.findElement(name).clear();
+    driver.findElement(name).sendKeys(strName);
+  }
+
+  public void selectBranch(String strBranchName) {
+    Select branchValue = new Select(driver.findElement(branch));
+    branchValue.selectByVisibleText(strBranchName);
   }
 
   public int numberOfElements() {
@@ -81,42 +69,46 @@ public class BranchesPage {
     return listOfRows.size();
   }
 
-  /*
-   * public void editBranch(String strName, String strCode) { this.clickCreateBranch(); this.setName(strName);
-   * this.setCode(strCode); this.clickSave(); }
-   */
-
-  public boolean checkBranchName(String branchName) {
-    return driver.findElement(By.xpath("//td[text()='" + branchName + "']")).isDisplayed();
+  public boolean checkStaffName(String staffName) {
+    return driver.findElement(By.xpath("//td[text()='" + staffName + "']")).isDisplayed();
   }
 
-  public String getBranchName(String branchName) {
-    return driver.findElement(By.xpath("//td[text()='" + branchName + "']")).getText();
+  public String getStaffName(String staffName) {
+    return driver.findElement(By.xpath("//td[text()='" + staffName + "']")).getText();
   }
 
-  public void searchBranchName(String branchName) {
+  public void searchStaffName(String staffName) {
     WebDriverWait wait = new WebDriverWait(driver, 20);
     wait.until(ExpectedConditions.elementToBeClickable(searchQuery));
     driver.findElement(searchQuery).clear();
-    driver.findElement(searchQuery).sendKeys(this.getBranchName(branchName));
-    driver.findElement(search).click();
+    driver.findElement(searchQuery).sendKeys(this.getStaffName(staffName));
+    this.clickSearch();
   }
 
-  public void editBranch(String branchName, String branchCode) {
+  public void editStaff(String staffName, String staffBranch) {
     driver.findElement(edit).click();
     WebDriverWait wait = new WebDriverWait(driver, 20);
-    wait.until(ExpectedConditions.elementToBeClickable(code));
-    if (!branchCode.equals("")) {
-      this.setCode(branchCode);
+    wait.until(ExpectedConditions.elementToBeClickable(name));
+    if (!staffName.equals("")) {
+      this.setName(staffName);
     }
-    if (!branchName.equals("")) {
-      this.setName(branchName);
+    if (!staffBranch.equals("")) {
+      this.selectBranch(staffBranch);
     }
     driver.findElement(save).click();
     wait.until(ExpectedConditions.invisibilityOfElementLocated(cancel));
   }
 
-  public void deleteBranch() {
+  public void createStaff(String strName, String strBranchName) {
+    this.clickCreateStaff();
+    this.setName(strName);
+    this.selectBranch(strBranchName);
+    this.clickSave();
+    WebDriverWait wait = new WebDriverWait(driver, 20);
+    wait.until(ExpectedConditions.invisibilityOfElementLocated(cancel));
+  }
+
+  public void deleteStaff() {
     this.clickDelete();
     this.clickConfirmDelete();
     WebDriverWait wait = new WebDriverWait(driver, 20);
