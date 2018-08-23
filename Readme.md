@@ -6,6 +6,7 @@ This project is developed for functional and regression testing of the applicati
 
 - The project is developed using Java and Selenium Automation Framework. TestNG is used as the testing framework. Based on TestNG groups a specific set of test cases can be excuted. 
 - Page Object Model (POM) design pattern is used to separate the WebElements, Page Methods and the Test execution.
+- Log4j is used for logging and execution logs are present in the file test.log
 - Some test cases are created as independent and some are dependent on each other. This has been done deiberately as an example.
 - [WebDriverManager](https://github.com/bonigarcia/webdrivermanager) is used to manage binaries for driver files for browsers using maven. This reduces the hassle to download individual browser binaries. 
 
